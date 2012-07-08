@@ -3,8 +3,6 @@ hook.io-async-fs
 
 Basic Hook.io Hook based on async-fs by Gabriel Lesperance
 
-# hook.io-irc - IRC Client hook for hook.io
-
 ## Installation
 
      git clone git@github.com:chromecide/hook.io-async-fs.git
