@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var async_fs = require('../lib/async_fs').async_fs;
+var asyncfsHook = new async_fs({ 
+  name: 'the-file-manager'
+});
+
+asyncfsHook.start();
+
+/*var FileHook = require('../lib/filehook.js').FileHook;
+var asyncfsHook = new FileHook({ 
+  name: 'the-file-manager'
+});
+
+asyncfsHook.start();*/

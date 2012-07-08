@@ -1,0 +1,30 @@
+{
+  "name": "async-fs",
+  "description": "Asynchronous file system utility library for Hook.io and nodeJS",
+  "version": "0.0.3",
+  "homepage": "https://github.com/chromecide/hook.io-async-fs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chromecide/hook.io-async-fs.git"
+  },
+  "author": {
+    "name": "Justin Pradier",
+    "email": "chromecide@gmail.com",
+    "url": "chromecide.com"
+  },
+  "main": "async_fs.js",
+  "engines": {
+    "node": ">=0.4.10"
+  },
+  "dependencies": {
+    "async": ">= 0.1.9"
+  },
+  "_id": "async-fs@0.0.3",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.16",
+  "_nodeVersion": "v0.6.15",
+  "_defaultsLoaded": true,
+  "_from": "async-fs"
+}
