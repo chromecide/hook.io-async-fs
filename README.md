@@ -9,6 +9,10 @@ Basic Hook.io Hook based on async-fs by Gabriel Lesperance
      cd hook.io-async-fs
      npm install
      node bin/async_fs
+     
+### Using NPM
+
+    npm install hook.io-async-fs
 
 ## Hook Event Names
 
