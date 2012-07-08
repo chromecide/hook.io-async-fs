@@ -47,3 +47,6 @@ Basic Hook.io Hook based on async-fs by Gabriel Lesperance
 
 }
 ```
+
+TODO:  Add async_fs_files property to config
+TODO:  Add unwatch_tree functionality
