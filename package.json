@@ -1,7 +1,7 @@
 {
   "name": "hook.io-async-fs",
   "description": "Asynchronous file system utility library for Hook.io and nodeJS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/chromecide/hook.io-async-fs",
   "keywords": ["hook.io", "file", "file monitor", "file watch"],
   "repository": {
