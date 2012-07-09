@@ -1,1 +1,6 @@
-{}
+{
+	"hookio_async_fs":{
+		"watch":[
+		]
+	}
+}

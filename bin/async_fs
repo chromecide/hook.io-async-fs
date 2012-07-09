@@ -6,10 +6,3 @@ var asyncfsHook = new async_fs({
 });
 
 asyncfsHook.start();
-
-/*var FileHook = require('../lib/filehook.js').FileHook;
-var asyncfsHook = new FileHook({ 
-  name: 'the-file-manager'
-});
-
-asyncfsHook.start();*/

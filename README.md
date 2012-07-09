@@ -30,6 +30,8 @@ Basic Hook.io Hook based on async-fs by Gabriel Lesperance
 
 **async_fs::file::stopped_watching** *{path, curr, prev}* - 
 
+**async-fs::file::watch_error** *{path, message}* - emitted when an error occurs while attempting to start a file hook
+
 **async_fs::file::access** *{path, curr, prev}* -
 
 **async_fs::file::destroy** *{path, curr, prev}* -
@@ -44,10 +46,16 @@ Basic Hook.io Hook based on async-fs by Gabriel Lesperance
 
 ```js
 {
-
+	"hookio_async_fs":{
+		"watch":[
+			"/path/or/file/to/watch"
+		]
+	}
 }
 ```
 
-TODO:  Add async_fs_files property to config
-
 TODO:  Add unwatch_tree functionality
+
+TODO: Add handling for file read errors when building a file hook
+
+TODO: Add pattern filtering for watchTree
